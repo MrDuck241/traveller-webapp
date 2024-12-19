@@ -1,0 +1,10 @@
+label:hover::before,
+label:hover ~ label::before,
+.stars input:checked ~ label::before {
+  color: #ffa500;
+}
+
+#rew input::placeholder,
+#res input::placeholder {
+  text-align: center;
+}

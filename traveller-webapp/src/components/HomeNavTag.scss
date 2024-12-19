@@ -1,0 +1,23 @@
+.hotelNameBtn{
+    height: auto;
+    color: transparent;
+    font-style: italic;
+    font-weight: 800;
+}
+
+@media (min-width: 768px) {
+    .hotelNameBtn{
+        font-size: 30px;
+    }
+}
+@media (min-width: 900px) {
+    .hotelNameBtn{
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .hotelNameBtn{
+        font-size: 80px;
+    }
+}

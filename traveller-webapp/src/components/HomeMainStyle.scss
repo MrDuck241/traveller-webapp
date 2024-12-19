@@ -1,0 +1,34 @@
+.main_container{
+    width: 100%;
+    height: 72vh;   
+    position: relative;
+    overflow-x: auto;
+}
+
+.main_box{
+    width: 80%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#map{
+    aspect-ratio: 6/4;
+}
+
+#hotelMiniature{
+    border-width: 15px;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: transparent;
+    padding-top: 10px;
+    align-items: center;
+    aspect-ratio: 6/4;
+    background: rgba(149, 149, 149, 0.783);
+}
